@@ -15,7 +15,7 @@
   background-position: center center;
 }
 
-#Field645 {
+#Field645, textarea.textarea {
   min-width: none !important;
   max-width: none !important;
 }
