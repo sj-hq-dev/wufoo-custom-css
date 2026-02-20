@@ -16,7 +16,7 @@
 }
 
 #Field645, textarea.textarea {
-  min-width: none !important;
+  min-width: 0 !important;
   max-width: none !important;
 }
 
