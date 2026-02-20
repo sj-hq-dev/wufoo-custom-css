@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com');
 
 #container {
-  width: 80%;
+  width: 60%;
   overflow-y: scroll;
   height: 70vh;
 }
@@ -9,6 +9,10 @@
 #logo {
   margin-top: 20px;
   margin-top: 20px;
+}
+
+#logo a {
+  background-position: center center;
 }
 
 /* Backgrounds */
