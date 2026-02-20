@@ -1,5 +1,147 @@
+@import url('https://fonts.googleapis.com');
+
 #container {
   width: 80%;
   overflow-y: scroll;
   height: 70vh;
+}
+
+#logo {
+  margin-top: 20px;
+  margin-top: 20px;
+}
+
+/* Backgrounds */
+html {
+  background-image: none;
+}
+
+#logo {
+  background-image: none;
+  background-color: #fff;
+  padding-top: 10px;
+}
+
+#logo a {
+  background-position: center center;
+}
+
+#container {
+  background-color: #fff !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none;
+}
+
+.wufoo input.text,
+.wufoo textarea.textarea,
+.wufoo select.select {
+  padding: 10px !important;
+  background-color: #EFEFEF;
+  background-image: none;
+  border: 1px solid #C1C1C1;
+  line-height: 22px;
+  color: #555;
+  /*-webkit-appearance:none;*/
+  -webkit-font-smoothing: antialiased;
+  box-shadow: rgba(0, 0, 0, 0.0901961) 0px 1px 2px 0px inset;
+}
+
+.wufoo .focused {
+  background: none !important;
+  border: 0px;
+}
+
+.wufoo .instruct {
+  background-color: #F5F5F5;
+  border: 0px;
+}
+
+/* Borders */
+.wufoo .info {
+  border-bottom: 0px;
+}
+
+.wufoo .instruct {
+  border: 0px;
+}
+
+/* Typography */
+.wufoo .info h2 {
+  font-size: 1.7em;
+  font-family: 'Raleway', sans-serif;
+  background: #FFFFFF;
+  color: #444;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.wufoo .info div {
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #444444
+}
+
+.wufoo .section h3 {
+  font-size: 1.7em;
+  font-family: 'Raleway', sans-serif;
+  background: #FFFFFF;
+  color: #444;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.wufoo .section div {
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #444444
+}
+
+.wufoo label.desc,
+.wufoo legend.desc,
+.wufoo label {
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #444444
+}
+
+.wufoo li div,
+.wufoo li div label,
+.wufoo li span label {
+  font-family: 'Raleway', sans-serif;
+  color: #444444
+}
+
+.wufoo input.text,
+.wufoo textarea.textarea,
+.wufoo label.choice {
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wufoo select.select {
+  font-size: 100% !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wufoo label.choice {
+  color: #444444
+}
+
+.wufoo .instruct {
+  font-size: 120%;
+  font-family: inherit;
+  color: #444444;
+}
+
+input#saveForm.btTxt.submit {
+  width: 100% !important;
+  background: #e31b23;
+  color: #fff;
+  height: 36px;
+  border: 1px solid #d11820;
+  -webkit-appearance: none;
 }
