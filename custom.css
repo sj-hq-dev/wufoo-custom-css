@@ -16,8 +16,8 @@
 }
 
 #Field645 {
-  min-width: none;
-  max-width: none;
+  min-width: none !important;
+  max-width: none !important;
 }
 
 /* Backgrounds */
